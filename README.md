@@ -20,3 +20,15 @@ A real-time, production-grade RFP Assistant that helps companies discover, evalu
 
 ## 🏗️ Low-level Architecture Overview (with Watsonx Orchestrate)
 ![LLD](assets/RFP_Assistant_Architecture.png)
+
+---
+
+## 🛠️ Project Setup
+
+### Prerequisites
+- Python3.11+
+- [requirements file](./requirements.txt)
+
+### Run
+1. `python rfp_assistant.py` - to start the backend app
+2. `python rfp_assistant_frontend.py` - to start the frontend app
