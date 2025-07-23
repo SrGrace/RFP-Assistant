@@ -3,7 +3,7 @@ FROM python:3.11-slim
 
 # Install system dependencies
 RUN apt-get update --fix-missing && \
-    apt-get install -y --fix-missing build-essential git && \
+    apt-get install -y --fix-missing build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 # Set environment variables
