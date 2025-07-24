@@ -1,0 +1,11 @@
+# ----------------------- 
+API_KEY=<IBM cloud IAM API key>
+IBM_CLOUD_URL=<IBM cloud url>
+PROJECT_ID=<Watsonx project id>
+
+COS_RESOURCE_CRN=<IBM COS Resource CRN>
+COS_ENDPOINT=<IBM COS Endpoint>
+BUCKET_NAME=<IBM COS Bucket name>
+
+COS_ACCESS_KEY_ID=<IBM COS Access key id>
+COS_SECRET_ACCESS_KEY=<IBM COS Secret access key>
