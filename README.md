@@ -7,6 +7,7 @@ A real-time, production-grade RFP Assistant that helps companies discover, evalu
 - ✅ Scrapes opportunities from:
   - [Ariba Discovery](https://portal.us.bn.cloud.ariba.com/discovery/public/leads/search)
   - [Alberta Purchasing Connection](https://purchasing.alberta.ca/search)
+  - add more...
 
 - 🧠 Search & Analyzes opportunity fit 
 - 📝 Generates RFP drafts: cover letter, executive summary, capabilities mapping
