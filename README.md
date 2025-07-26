@@ -33,3 +33,6 @@ A real-time, production-grade RFP Assistant that helps companies discover, evalu
 ### Run
 1. `python rfp_assistant.py` - to start the backend app
 2. `python rfp_assistant_frontend.py` - to start the frontend app
+
+### LangGraph Experimentations
+- [Experimentations](./Experiments)
