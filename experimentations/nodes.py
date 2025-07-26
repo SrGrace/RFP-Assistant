@@ -30,7 +30,7 @@ wx_credentials = {
 }
 llm = ChatWatsonx(
     model_id="meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
-    params={GenTextParams.MAX_NEW_TOKENS: 2000, GenTextParams.DECODING_METHOD: "sample", GenTextParams.TEMPERATURE: 0.7},
+    params={GenTextParams.MAX_NEW_TOKENS: 4096, GenTextParams.DECODING_METHOD: "sample", GenTextParams.TEMPERATURE: 0.7},
     **wx_credentials,
 )
 
