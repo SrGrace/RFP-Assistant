@@ -115,7 +115,6 @@ def get_cos_details() -> Tuple:
             os.getenv("COS_ENDPOINT"),
             os.getenv("API_KEY"),
         )
-
     else:
         raise ValueError(f"envar missing {mandatory_envar}")
 
