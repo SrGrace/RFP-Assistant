@@ -29,8 +29,6 @@ def calculate_match_score(company_embed, text_embed) -> float:
     sim = util.pytorch_cos_sim(company_embed, text_embed)
     return float(sim.item())
 
-import inspect
-
 @app.post("/search-opportunities", response_model=List[RfpOpportunity])
 async def search_opportunities(profile: CompanyProfile):
     company_embed = embed_text("Description: {}".format(profile.description))
