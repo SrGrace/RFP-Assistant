@@ -138,7 +138,7 @@ def put_item(item_name: str, item_path: str, bucket_name: str):
                 Fileobj=file_data
             )
     except ClientError as ce:
-        print("CLIENT ERROR: {0}\n".format(ce))
+        print("CLIENT ERROR: {}".format(ce))
     except Exception as e:
         print(f"Unable to upload file contents: {e}")
 
